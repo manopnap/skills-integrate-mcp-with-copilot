@@ -6,6 +6,17 @@ Hey manopnap!
 
 Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
 
+This project now includes a basic user authentication system with student/admin roles and a small persistent `src/data/users.json` user store.
+
+New endpoints include:
+- `POST /auth/register`
+- `POST /auth/login`
+- `GET /users/me`
+- `PUT /users/me`
+- `POST /auth/forgot-password`
+- `POST /auth/reset-password`
+- `GET /users` (admin-only)
+
 Remember, it's self-paced so feel free to take a break! ☕️
 
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/manopnap/skills-integrate-mcp-with-copilot/issues/1)
